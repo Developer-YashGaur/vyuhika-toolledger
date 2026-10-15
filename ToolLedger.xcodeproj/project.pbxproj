@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000028 /* ToolLedgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000001E /* ToolLedgerApp.swift */; };
+		000000000000000000000029 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000001F /* WelcomeView.swift */; };
+		00000000000000000000002A /* AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000020 /* AppVersion.swift */; };
+		00000000000000000000002B /* AppVersionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000021 /* AppVersionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000000000000000000000038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000000000002;
+			remoteInfo = ToolLedger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000008 /* Vyuhika ToolLedger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "Vyuhika ToolLedger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000009 /* ToolLedgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ToolLedgerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00000000000000000000001E /* ToolLedgerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolLedgerApp.swift; sourceTree = "<group>"; };
+		00000000000000000000001F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		000000000000000000000020 /* AppVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersion.swift; sourceTree = "<group>"; };
+		000000000000000000000021 /* AppVersionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000004 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000005 /* ToolLedger */,
+				000000000000000000000006 /* ToolLedgerTests */,
+				000000000000000000000007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000005 /* ToolLedger */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000001E /* ToolLedgerApp.swift */,
+				00000000000000000000001F /* WelcomeView.swift */,
+				000000000000000000000020 /* AppVersion.swift */,
+			);
+			path = ToolLedger;
+			sourceTree = "<group>";
+		};
+		000000000000000000000006 /* ToolLedgerTests */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000021 /* AppVersionTests.swift */,
+			);
+			path = ToolLedgerTests;
+			sourceTree = "<group>";
+		};
+		000000000000000000000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000008 /* Vyuhika ToolLedger.app */,
+				000000000000000000000009 /* ToolLedgerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000002 /* ToolLedger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000000B /* Build configuration list for PBXNativeTarget "ToolLedger" */;
+			buildPhases = (
+				000000000000000000000032 /* Sources */,
+				000000000000000000000033 /* Frameworks */,
+				000000000000000000000034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToolLedger;
+			productName = "Vyuhika ToolLedger";
+			productReference = 000000000000000000000008 /* Vyuhika ToolLedger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000000000000000000000003 /* ToolLedgerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000000C /* Build configuration list for PBXNativeTarget "ToolLedgerTests" */;
+			buildPhases = (
+				000000000000000000000035 /* Sources */,
+				000000000000000000000036 /* Frameworks */,
+				000000000000000000000037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000000000000000000000039 /* PBXTargetDependency */,
+			);
+			name = ToolLedgerTests;
+			productName = ToolLedgerTests;
+			productReference = 000000000000000000000009 /* ToolLedgerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = 00000000000000000000000A /* Build configuration list for PBXProject "ToolLedger" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000004;
+			productRefGroup = 000000000000000000000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000002 /* ToolLedger */,
+				000000000000000000000003 /* ToolLedgerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000028 /* ToolLedgerApp.swift in Sources */,
+				000000000000000000000029 /* WelcomeView.swift in Sources */,
+				00000000000000000000002A /* AppVersion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000002B /* AppVersionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000000000000000000000039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000000000002 /* ToolLedger */;
+			targetProxy = 000000000000000000000038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00000000000000000000003C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		00000000000000000000003D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		00000000000000000000003E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vyuhika.toolledger;
+				PRODUCT_MODULE_NAME = ToolLedger;
+				PRODUCT_NAME = "Vyuhika ToolLedger";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		00000000000000000000003F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vyuhika.toolledger;
+				PRODUCT_MODULE_NAME = ToolLedger;
+				PRODUCT_NAME = "Vyuhika ToolLedger";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		000000000000000000000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vyuhika.toolledger.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vyuhika ToolLedger.app/Contents/MacOS/Vyuhika ToolLedger";
+			};
+			name = Debug;
+		};
+		000000000000000000000041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vyuhika.toolledger.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vyuhika ToolLedger.app/Contents/MacOS/Vyuhika ToolLedger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00000000000000000000000A /* Build configuration list for PBXProject "ToolLedger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000003C /* Debug */,
+				00000000000000000000003D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000000B /* Build configuration list for PBXNativeTarget "ToolLedger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000003E /* Debug */,
+				00000000000000000000003F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000000C /* Build configuration list for PBXNativeTarget "ToolLedgerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000040 /* Debug */,
+				000000000000000000000041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
+}

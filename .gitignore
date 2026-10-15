@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+
+# Xcode / SwiftPM outputs and per-user state
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.build/
+.swiftpm/
+*.xcresult
+*.ipa
+*.dSYM/
+*.dSYM.zip
+
+# Local secrets and signing material
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+*.keychain-db
+
+# Repository-local runtime data (never use these for source fixtures)
+/local-data/
+/Application Support/
+
+# Keep project files, shared schemes, assets and Package.resolved tracked.
